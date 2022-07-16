@@ -8,7 +8,7 @@ function computerPlay() {
     return "scissors";
   }
 }
-// computerPLay random object between 0 and 1 as there is 3 strings such as rock, paper and scissors. The computer plays rock i
+// computerPLay random object between 0 and 1 as there is 3 strings such as rock, paper and scissors. 
 
 function playRound(playerSelection, computerSelection) {
   if (playerSelection.toLowerCase() === "rock") {
