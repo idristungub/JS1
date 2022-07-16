@@ -1,8 +1,8 @@
 function computerPlay() {
-  var computerPlay = Math.random();
-  if (computerPlay <= 0.34) {
+  var random = Math.random();
+  if (random <= 0.34) {
     return "rock";
-  } else if (computerPlay <= 0.67) {
+  } else if (random <= 0.67) {
     return "paper";
   } else {
     return "scissors";
