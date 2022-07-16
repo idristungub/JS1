@@ -52,9 +52,3 @@ for (var i = 0; i < 5; i++) {
   console.log(playRound(playerSelection, computerSelection));
 }
 
-// function computerPlay() {
-//   choices = ["rock", "paper", "scissors"];
-//   const computer = choices[Math.floor(Math.random() * choices.length)];
-
-//   return computer;
-// }
