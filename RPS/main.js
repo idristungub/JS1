@@ -1,6 +1,6 @@
 function computerPlay() {
   var computerPlay = Math.random();
-  if (computerPlay < 0.34) {
+  if (computerPlay <= 0.34) {
     return "rock";
   } else if (computerPlay <= 0.67) {
     return "paper";
